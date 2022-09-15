@@ -58,6 +58,7 @@
         <div class="container"> <small>
                 @yield('footer', 'Footer')
             </small> </div>
+            <a href="{{ route('admin.home.index') }}" class="btn btn-link">Admin site</a>
     </div>
     <!-- footer -->
 
